@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Principal
-    Created on : 2/10/2021, 05:16:29 PM
-    Author     : estua
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

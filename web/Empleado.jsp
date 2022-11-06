@@ -22,7 +22,7 @@
         <div class="card col-sm-6">
             <div class="card-body">
                 <form action="Controlador?menu=Empleado" method="POST">
-                    <div class="form-group"><label for="">DNI</label><input type="text" value="${empleado.getDni()}" name="txtDni" id="txtDni"
+                    <div class="form-group"><label for="">DPI</label><input type="text" value="${empleado.getDni()}" name="txtDni" id="txtDni"
                             class="form-control"></div>
                     <div class="form-group"><label for="">Nombres</label><input type="text" value="${empleado.getNomb()}" name="txtNombres"
                             id="txtNombres" class="form-control"></div>

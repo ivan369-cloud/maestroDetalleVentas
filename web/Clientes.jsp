@@ -20,7 +20,7 @@
         <div class="card col-sm-6">
             <div class="card-body">
                 <form action="Controlador?menu=Cliente" method="POST">
-                    <div class="form-group"><label for="">DNI</label><input type="text" value="${cliente.getDni()}"
+                    <div class="form-group"><label for="">DPI</label><input type="text" value="${cliente.getDni()}"
                             name="txtDni" id="txtDni" class="form-control"></div>
                     <div class="form-group"><label for="">Nombres</label><input type="text" value="${cliente.getNomb()}"
                             name="txtNombres" id="txtNombres" class="form-control"></div>
@@ -38,7 +38,7 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>DNI</th>
+                        <th>DPI</th>
                         <th>NOMBRES</th>
                         <th>DIRECCION</th>
                         <th>ESTADO</th>

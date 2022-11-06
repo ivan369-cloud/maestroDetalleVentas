@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Principal
-    Created on : 2/10/2021, 05:16:29 PM
-    Author     : estua
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -16,31 +11,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-light" href="#">Home</a>
+                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-dark" href="#">Ventas</a>
                 </li>
                 <li class="nav-item">
-                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-light"
+                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-dark"
                         href="Controlador?menu=Producto&accion=Listar" target="myFrame">Producto</a>
                 </li>
                 <li class="nav-item">
-                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-light"
+                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-dark"
                         href="Controlador?menu=Empleado&accion=Listar" target="myFrame">Empleado</a>
                 </li>
                 <li class="nav-item">
-                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-light"
+                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-dark"
                         href="Controlador?menu=Cliente&accion=Listar" target="myFrame">Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-light"
-                        href="Controlador?menu=NuevaVenta&accion=default" target="myFrame">Nueva venta</a>
+                    <a style="margin-left: 10px; border: none;" class="btn btn-outline-dark"
+                        href="Controlador?menu=NuevaVenta&accion=default" target="myFrame">Realiza Ventas</a>
                 </li>
             </ul>
             <div class="dropdown">
-                <button style="border: none;" class="btn btn-outline-light dropdown-toggle" type="button"
+                <button style="border: none;" class="btn btn-outline-dark dropdown-toggle" type="button"
                     id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <p hidden id="userLogueado">${usuario.getNomb()}</p>
                     ${usuario.getNomb()}
